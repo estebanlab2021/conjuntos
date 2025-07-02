@@ -25,8 +25,8 @@ Esta herramienta web interactiva, construida con **PyScript**, permite explorar 
 |--------------|---------------------------------------|
 | PyScript     | Ejecutar Python en el navegador       |
 | Matplotlib   | Generación de gráficos estadísticos   |
-| Pandas       | Manipulación de estructuras de datos  |
-| JSON         | Configuración dinámica de conceptos   |
+| matplotlib_venn       | Generación de gráficos de Venn  |
+| JSON         | Configuración dinámica de datos       |
 | HTML/CSS     | Maquetado y estilos visuales          |
 
 ---
@@ -35,6 +35,8 @@ Esta herramienta web interactiva, construida con **PyScript**, permite explorar 
 
 El proyecto lo puedes visualizar en el siguiente link:  
 👉 [Enlace a la página](https://estebanlab2021.github.io/conjuntos/)
+
+Espera a que se carguen los componentes de pyscrit/ pyodide y listo!!
 
 ## 🧪 Ejemplo de Uso
 
