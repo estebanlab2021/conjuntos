@@ -1,0 +1,104 @@
+{
+  "a-b": {
+    "titulo": "A − B",
+    "descripcion": "A − B ≡ A ∩ B′<br>Elementos que están en A pero no en B.",
+    "ejemplo": "A = {1, 2, 3, 4}<br>B = {3, 4, 5}<br><strong>Resultado:</strong> {1, 2}",
+    "img": "graficos/a-b.png",
+    "ejemplos_contextuales": [
+      "Personas que hicieron clic en un anuncio pero no compraron el producto.",
+      "Pacientes que recibieron vacuna A pero no vacuna B.",
+      "Clientes que visitaron la tienda física pero no realizaron una compra."
+    ]
+  },
+  "a-inter-b": {
+    "titulo": "A ∩ B",
+    "descripcion": "A ∩ B<br>Elementos que están tanto en A como en B.",
+    "ejemplo": "A = {2, 3, 4}<br>B = {3, 4, 5}<br><strong>Resultado:</strong> {3, 4}",
+    "img": "graficos/a-inter-b.png",
+    "ejemplos_contextuales": [
+      "Personas que usan corbata y saco.",
+      "Clientes que compraron en tienda física y también online.",
+      "Pacientes que presentaron fiebre y dificultad respiratoria."
+    ]
+  },
+  "a-union-b": {
+    "titulo": "A ∪ B",
+    "descripcion": "A ∪ B<br>Todos los elementos que están en A, en B o en ambos.",
+    "ejemplo": "A = {1, 2}<br>B = {2, 3, 4}<br><strong>Resultado:</strong> {1, 2, 3, 4}",
+    "img": "graficos/a-union-b.png",
+    "ejemplos_contextuales": [
+      "Clientes que compraron en tienda física o en tienda online (o ambos).",
+      "Pacientes que presentaron fiebre o dolor muscular (o ambos).",
+      "Personas que consumieron el producto A o el producto B (o ambos).",
+      "Usuarios que vieron publicidad en redes o recibieron email marketing (o ambos).",
+      "Pacientes que tienen síntomas gastrointestinales o respiratorios (o ambos)."
+    ]
+  },
+  "a-xor-b": {
+    "titulo": "A △ B",
+    "descripcion": "A △ B ≡ (A − B) ∪ (B − A)<br>Elementos que están en A o en B, pero no en ambos.",
+    "ejemplo": "A = {1, 2, 3}<br>B = {3, 4, 5}<br><strong>Resultado:</strong> {1, 2, 4, 5}",
+    "img": "graficos/a-xor-b.png",
+    "ejemplos_contextuales": [
+      "Clientes que compraron café o té, pero no los dos.",
+      "Personas que se registraron por correo o por app móvil, pero no en ambas.",
+      "Pacientes que presentan dolor de cabeza o fatiga, pero no ambos síntomas."
+    ]
+  },
+  "b-subset-a": {
+    "titulo": "B ⊆ A",
+    "descripcion": "Todos los elementos de B están contenidos en A.",
+    "ejemplo": "A = {1, 2, 3, 4, 5}<br>B = {2, 4, 5}<br><strong>Resultado:</strong> B ⊆ A",
+    "img": "graficos/b-subset-a.png",
+    "ejemplos_contextuales": [
+      "Todos los clientes VIP también están en la base de clientes generales.",
+      "Todos los pacientes hospitalizados también están registrados como pacientes activos.",
+      "Todas las promociones por email también fueron mostradas en la página web."
+    ]
+  },
+  "demorgan1": {
+  "titulo": "(A ∪ B)' ≡ A' ∩ B'",
+  "descripcion": "Primera Ley de De Morgan:<br>La negación de la unión es igual a la intersección de los complementos.",
+  "ejemplo": "A = {1, 2, 3}<br>B = {3, 4, 5}<br>Universo = {1, 2, 3, 4, 5, 6}<br>(A ∪ B)' = A' ∩ B' = {6}",
+  "img": "graficos/demorgan1.png",
+  "ejemplos_contextuales": [
+    "Personas que no reciben newsletters ni notificaciones móviles.",
+    "Pacientes que no presentan fiebre ni tos.",
+    "Usuarios que no vieron el anuncio A ni el B."
+  ]
+  },
+  "demorgan2": {
+    "titulo": "(A ∩ B)' ≡ A' ∪ B'",
+    "descripcion": "Segunda Ley de De Morgan:<br>La negación de la intersección es equivalente a la unión de los complementos.",
+    "ejemplo": "A = {1, 2, 3}<br>B = {3, 4, 5}<br>Universo = {1, 2, 3, 4, 5, 6}<br>(A ∩ B)' = A' ∪ B' = {1, 2, 4, 5, 6}",
+    "img": "graficos/demorgan2.png",
+    "ejemplos_contextuales": [
+      "Usuarios que no compraron ambos productos A y B.",
+      "Personas que no son médicos y profesores al mismo tiempo.",
+      "- Pacientes que no presentan fiebre y pérdida de olfato simultáneamente."
+    ]
+  },
+  "disjuntos": {
+    "titulo": "A ∩ B = ∅",
+    "descripcion": "Conjuntos disjuntos:<br>Dos conjuntos sin elementos en común.",
+    "ejemplo": "A = {1, 2}<br>B = {3, 4, 5}<br>Resultado: A ∩ B = ∅",
+    "img": "graficos/disjuntos.png",
+    "ejemplos_contextuales": [
+      "Clientes que compraron juguetes para niños y clientes que compraron cigarros electrónicos.",
+      "Personas que participaron del curso de cocina y personas que tomaron el taller de reparación de motos.",
+      "Pacientes registrados en el hospital pediátrico vs pacientes en geriatría."
+    ]
+  },
+  "complemento-a": {
+    "titulo": "A'",
+    "descripcion": "Complemento de A:<br>Elementos que no pertenecen a A, dentro del universo U.",
+    "ejemplo": "A = {1, 2, 3}<br>Universo U = {1, 2, 3, 4, 5}<br>Resultado: A' = {4, 5}",
+    "img": "graficos/complemento-a.png",
+    "ejemplos_contextuales": [
+      "Personas que no compraron durante el Black Friday.",
+      "Pacientes que no recibieron la vacuna antigripal.",
+      "Usuarios que no respondieron la encuesta de satisfacción."
+    ]
+  }
+
+}
