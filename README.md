@@ -34,7 +34,7 @@ Esta herramienta web interactiva, construida con **PyScript**, permite explorar 
 ## 🚀 Cómo Usarlo
 
 El proyecto lo puedes visualizar en el siguiente link:  
-👉 [Enlace a la página](https://dashboard-7fg5bx4zjrgbwfm4jxalfi.streamlit.app/)
+👉 [Enlace a la página](https://estebanlab2021.github.io/conjuntos/)
 
 ## 🧪 Ejemplo de Uso
 
